@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Proyectos | Celestino Viejo</title>
+    <meta name="description" content="Descubre mis proyectos de desarrollo web y análisis de datos: UniversiConnect, exploración del catálogo Gaia y modelos para predecir la diabetes.">
+    <meta property="og:title" content="Proyectos | Celestino Viejo">
+    <meta property="og:description" content="Descubre mis proyectos de desarrollo web y análisis de datos: UniversiConnect, exploración del catálogo Gaia y modelos para predecir la diabetes.">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&amp;display=swap">
+    <link rel="canonical" href="https://celesviejo.github.io/proyectos.html">
+    <meta property="og:url" content="https://celesviejo.github.io/proyectos.html">
+    <meta property="og:image" content="https://celesviejo.github.io/img/og-portfolio.jpg">
+  </head>
+  <body>
+    <a href="#contenido">Saltar al contenido</a>
+    <header>
+      <p><a href="index.html"><img src="img/logo.svg" alt="Celestino Viejo" width="300" height="60"></a></p>
+      <p>Estudio Ingeniería Matemática en Ciencia de Datos e Ingeniería Informática.</p>
+      <nav aria-label="Navegación principal">
+        <ul>
+          <li><p><a href="index.html">Inicio</a></p></li>
+          <li><p><a href="proyectos.html">Proyectos</a></p></li>
+          <li><p><a href="contacto.html">Contacto</a></p></li>
+          <li><p><a href="sobre-mi.html">Sobre mí</a></p></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="contenido" tabindex="-1">
+      <h1>Proyectos</h1>
+      <p>Estos son algunos de los trabajos que he hecho en la carrera. Aquí cuento de qué van, qué hice y qué aprendí.</p>
+      <ul>
+        <li><p><a href="#desarrollo-web">Desarrollo web</a></p></li>
+        <li><p><a href="#ingenieria-datos">Ingeniería de datos</a></p></li>
+        <li><p><a href="#aprendizaje-automatico">Aprendizaje automático</a></p></li>
+      </ul>
+      <section id="desarrollo-web">
+        <h2>Desarrollo web</h2>
+        <article id="universiconnect" class="proyecto" data-anio="2024" data-tecnologia="html">
+          <h3>UniversiConnect</h3>
+          <p>Año: <time datetime="2024">2024</time>.</p>
+          <figure>
+            <picture>
+              <source srcset="img/proyecto-universiconnect.webp" type="image/webp">
+              <img src="img/proyecto-universiconnect.jpg" alt="Diapositiva con las funciones de UniversiConnect: tutorías, aulas, foros y gestión de usuarios." width="1400" height="788" loading="lazy">
+            </picture>
+            <figcaption>Funciones principales de UniversiConnect.</figcaption>
+          </figure>
+          <p>Hicimos en equipo un prototipo para pedir tutorías, reservar aulas y participar en foros de asignaturas. Tenía perfiles de alumnos, profesores y administradores, y funcionaba en nuestro ordenador.</p>
+          <p>Yo me encargué de diseñar la base de datos y conectarla con la aplicación. Por ejemplo, cuando un alumno se registraba o pedía una tutoría, la información quedaba guardada. Aprendí a organizar los datos y hacer que la web pudiera utilizarlos.</p>
+          <ul>
+            <li>HTML</li>
+            <li>Python</li>
+            <li>Flask</li>
+            <li>MySQL</li>
+          </ul>
+        </article>
+      </section>
+      <section id="ingenieria-datos">
+        <h2>Ingeniería de datos</h2>
+        <article id="gaia" class="proyecto" data-anio="2025" data-tecnologia="python">
+          <h3>Exploración de datos astronómicos de Gaia</h3>
+          <p>Año: <time datetime="2025">2025</time>.</p>
+          <figure>
+            <picture>
+              <source srcset="img/proyecto-gaia.webp" type="image/webp">
+              <img src="img/proyecto-gaia.jpg" alt="Diagrama de color y magnitud absoluta de estrellas de Gaia, con los tipos espectrales identificados en la leyenda." width="600" height="690" loading="lazy">
+            </picture>
+            <figcaption>Diagrama de color y magnitud de las estrellas analizadas.</figcaption>
+          </figure>
+          <p>El gráfico relaciona el color de las estrellas con su magnitud absoluta. Los puntos se agrupan por tipo espectral, y cada tipo aparece identificado en la leyenda.</p>
+          <p>En este trabajo individual descargué datos de estrellas del catálogo Gaia, los limpié y añadí información de otras fuentes mediante web scraping. Después los guardé en MySQL para hacer consultas y gráficos.</p>
+          <p>Aprendí a conectar Python con MySQL y a preparar datos de distintas fuentes. Con los gráficos pude explorar la distancia, el color y el brillo de las estrellas.</p>
+          <ul>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>MySQL</li>
+            <li>pandas</li>
+            <li>NumPy</li>
+            <li>Matplotlib</li>
+            <li>Astroquery</li>
+            <li>Astropy</li>
+          </ul>
+        </article>
+      </section>
+      <section id="aprendizaje-automatico">
+        <h2>Aprendizaje automático</h2>
+        <article id="diabetes" class="proyecto" data-anio="2026" data-tecnologia="python">
+          <h3>Análisis y predicción de diabetes</h3>
+          <p>Año: <time datetime="2026">2026</time>.</p>
+          <figure>
+            <picture>
+              <source srcset="img/proyecto-diabetes.webp" type="image/webp">
+              <img src="img/proyecto-diabetes.jpg" alt="Árbol de decisión que clasifica casos de diabetes usando variables como salud general, edad e índice de masa corporal." width="1318" height="659" loading="lazy">
+            </picture>
+            <figcaption>Uno de los árboles de decisión que probé en el proyecto.</figcaption>
+          </figure>
+          <p>El árbol va dividiendo los datos según variables de salud, como la medicación para el colesterol, la hipertensión y la edad, hasta llegar a una clasificación.</p>
+          <p>En este trabajo individual utilicé datos públicos de salud para probar modelos que predijeran la presencia de diabetes. Primero importé y limpié los datos, los exploré con gráficos y después comparé varios modelos.</p>
+          <p>Aprendí a preparar los datos y comparar los resultados de los modelos. También trabajé con el desequilibrio entre personas con y sin diabetes, y probé técnicas para agrupar los datos y entender mejor las predicciones.</p>
+          <ul>
+            <li>Python</li>
+            <li>pandas</li>
+            <li>NumPy</li>
+            <li>Matplotlib</li>
+            <li>seaborn</li>
+            <li>scikit-learn</li>
+          </ul>
+        </article>
+      </section>
+      <section id="como-trabajo">
+        <h2>Cómo trabajo</h2>
+        <ol>
+          <li>Entender qué quiero resolver y qué necesito conseguir.</li>
+          <li>
+            Pensar cómo voy a hacerlo.
+            <ul>
+              <li>Revisar qué datos necesito y cómo se relacionan.</li>
+              <li>Elegir las herramientas que voy a usar.</li>
+            </ul>
+          </li>
+          <li>Programar y conectar las distintas partes.</li>
+          <li>Probar que funciona y corregir los fallos.</li>
+          <li>Explicar cómo lo he hecho y qué he aprendido.</li>
+        </ol>
+      </section>
+      <section id="resumen">
+        <h2>Resumen de proyectos</h2>
+        <p>Las herramientas de esta tabla son las principales. Puedes ver la lista completa en la ficha de cada proyecto.</p>
+        <table>
+          <caption>Mis tres proyectos de clase</caption>
+          <thead>
+            <tr>
+              <th scope="col">Proyecto</th>
+              <th scope="col">Área</th>
+              <th scope="col">Año</th>
+              <th scope="col">Herramientas principales</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><p><a href="#universiconnect">UniversiConnect</a></p></th>
+              <td>Web</td>
+              <td>2024</td>
+              <td>HTML, Python y MySQL</td>
+            </tr>
+            <tr>
+              <th scope="row"><p><a href="#gaia">Gaia</a></p></th>
+              <td>Datos</td>
+              <td>2025</td>
+              <td>Python, SQL y Astroquery</td>
+            </tr>
+            <tr>
+              <th scope="row"><p><a href="#diabetes">Predicción de diabetes</a></p></th>
+              <td>Modelos predictivos</td>
+              <td>2026</td>
+              <td>Python y scikit-learn</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th scope="row" colspan="3">Total de proyectos</th>
+              <td>3</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <address>Contacto: <a href="mailto:celesviejo@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M2 4h20v16H2V4zm2 2v1l8 6 8-6V6l-8 6-8-6zm16 3.5-8 6-8-6V18h16V9.5z"/></svg> celesviejo@gmail.com</a></address>
+      <ul>
+        <li><p><a href="https://github.com/celesviejo" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.77-.24.77-.54v-2.1c-3.13.68-3.79-1.33-3.79-1.33-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 1.72 2.63 1.22 3.27.93.1-.73.4-1.22.71-1.5-2.5-.29-5.13-1.25-5.13-5.57 0-1.23.44-2.23 1.16-3.01-.12-.29-.5-1.43.11-2.97 0 0 .95-.3 3.08 1.15a10.73 10.73 0 0 1 5.61 0c2.13-1.45 3.08-1.15 3.08-1.15.61 1.54.23 2.68.11 2.97.72.78 1.16 1.78 1.16 3.01 0 4.33-2.64 5.28-5.15 5.56.4.35.76 1.03.76 2.08v3.11c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8z"/></svg> Mi perfil de GitHub </a></p></li>
+        <li><p><a href="https://www.linkedin.com/in/celes-viejo-5bb75b447/" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M20 2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM8 19H5V9h3v10zM6.5 7.7a1.7 1.7 0 1 1 0-3.4 1.7 1.7 0 0 1 0 3.4zM19 19h-3v-5c0-1.2-.5-2-1.5-2S13 12.8 13 14v5h-3V9h3v1.3c.6-.9 1.6-1.5 2.8-1.5 2.1 0 3.2 1.4 3.2 4.2v6z"/></svg> Mi perfil de LinkedIn </a></p></li>
+      </ul>
+      <p><small>&copy; 2026 Celes Viejo.</small></p>
+    </footer>
+  </body>
+</html>
