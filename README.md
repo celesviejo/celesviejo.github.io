@@ -1,6 +1,6 @@
 # Portfolio de Celestino Viejo
 
-URL prevista de publicación: https://celesviejo.github.io/
+URL pública: https://celesviejo.github.io/
 
 ## Páginas
 
@@ -12,7 +12,6 @@ URL prevista de publicación: https://celesviejo.github.io/
 ## Recursos
 
 - Vídeo elegido e incrustado desde YouTube: https://www.youtube.com/watch?v=I9BWsebAILI
-- No se incluye audio adicional.
 - Imágenes de los proyectos: capturas de mis trabajos académicos.
 - Logo, favicon e imagen Open Graph preparados para este portfolio.
 - Iconos SVG basados en Simple Icons (GitHub y LinkedIn) y un icono de correo.
